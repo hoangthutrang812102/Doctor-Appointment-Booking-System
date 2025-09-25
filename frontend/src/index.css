@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@source "../views";
+/**
+* You may need to modify these paths to the real path relative
+* to this CSS file.
+*/
+@source "../resources/**/*.blade.php";
+/**
+* You may not need the following directive if the JS files are
+* processed in Vite.
+*/
+@source "../resources/**/*.js";
+
+@theme {
+    --color-primary: #5f6FFF;
+}
+
+.active hr {
+    @apply block
+}
