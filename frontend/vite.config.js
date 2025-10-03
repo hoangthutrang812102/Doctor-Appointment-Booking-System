@@ -13,5 +13,6 @@ export default defineConfig({
         'primary': "#5f6FFF"
       }
     }
-  }
+  },
+  server: { port: 5173 }
 })

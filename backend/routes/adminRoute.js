@@ -1,5 +1,5 @@
 import express from 'express'
-import { addDoctor } from '../controller/adminController.js'
+import { addDoctor, loginAdmin } from '../controller/adminController.js'
 import upload from '../middlewares/multer.js'
 import authAdmin from '../middlewares/authAdmin.js'
 
